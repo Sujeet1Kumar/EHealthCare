@@ -8,8 +8,6 @@ create table patient(id varchar(10) primary key, name varchar(25), mobile varcha
 
 create table feedback(pid varchar(10), did varchar(10), rate varchar(10), comment varchar(100), pname varchar(25), dname varchar(25), pimage varchar(25), dimage varchar(25));
 
-create table feedback(pid varchar(10), did varchar(10), rate varchar(10), comment varchar(100));
-
 create table chatting (chat varchar(100));
 
 create table request (pid varchar(10), did varchar(10), status varchar(10));
